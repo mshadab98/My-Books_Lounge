@@ -82,7 +82,7 @@ const NavBar = () => {
         </NavLink>
 
         <NavLink
-          to="/fav"
+          to="/favourite"
           onClick={() => setIsOpen(false)}
           className={({ isActive }) =>
             `transition duration-300 pb-1 ${

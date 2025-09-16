@@ -14,12 +14,12 @@ const Allroute = () => {
    <Routes>
     <Route path="/" element ={<Home/>}/>
     <Route path="/about" element ={<About/>}/>
-        <Route path='/books' element = {<Books/>}/>
-    <Route path = "/booldetails/:id" element={<BookDetails/>}/>
+    <Route path='/books' element = {<Books/>}/>
+    <Route path = "/books/booldetails/:id" element={<BookDetails/>}/>
     <Route path = "/create" element={<Create/>}/>
     <Route path = "/signIn" element = {<SignIn/>}/>
     <Route path = "/signUp" element = {<SignUp/>}/>
-    <Route path = "/fav" element={<Favourite/>}/>
+    <Route path = "/favourite" element={<Favourite/>}/>
     <Route path = "*" element={<PageNotFound/>}/>
    </Routes>
   )
